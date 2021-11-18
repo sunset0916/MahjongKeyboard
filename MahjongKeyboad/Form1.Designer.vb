@@ -603,6 +603,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
         Me.Text = "Mahjong Keyboad"
+        Me.TopMost = True
         Me.ResumeLayout(False)
 
     End Sub
