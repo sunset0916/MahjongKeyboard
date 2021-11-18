@@ -601,6 +601,8 @@ Partial Class Form1
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.MaximumSize = New System.Drawing.Size(662, 554)
+        Me.MinimumSize = New System.Drawing.Size(662, 554)
         Me.Name = "Form1"
         Me.Text = "Mahjong Keyboad"
         Me.TopMost = True
