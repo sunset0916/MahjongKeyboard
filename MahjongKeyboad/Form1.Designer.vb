@@ -601,7 +601,10 @@ Partial Class Form1
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(662, 554)
+        Me.MinimizeBox = False
         Me.MinimumSize = New System.Drawing.Size(662, 554)
         Me.Name = "Form1"
         Me.Text = "Mahjong Keyboad"
