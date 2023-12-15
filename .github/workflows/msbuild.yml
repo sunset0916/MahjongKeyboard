@@ -19,7 +19,7 @@ jobs:
       uses: microsoft/setup-msbuild@v1.1
       
     - name: MSBuild
-      run: dotnet build your_project_name.sln -p:OutDir="out/"
+      run: dotnet build MahjongKeyboad.sln -p:OutDir="out/"
       shell: cmd
         
     - name: Upload artifact
